@@ -1,0 +1,26 @@
+<template id="footer-stuff">
+  <style>
+    
+  </style>
+    <footer>
+      <span>copyright</span>
+      <span>credits</span>
+      <span>links</span>
+    </footer
+</template>
+<script>
+  // This element will be registered to index.html
+  // Because `document` here means the one in index.html
+  var footerstuff = document.registerElement('footer-stuff', {
+    prototype: Object.create(HTMLElement.prototype, {
+      createdCallback: {
+        value: function() {
+          var root = this.createShadowRoot();
+          var template = document.querySelector('#template');
+          var clone = document.importNode(template.content, true);
+          root.appendChild(clone);
+        }
+      }
+    })
+  });
+</script>
