@@ -80,22 +80,18 @@ body {
 }
 #section-music {
     background-color: #673ab7;
-    margin-right: 20px;
 }
 #section-person {
     background-color: #FF9800;
-    margin-right: 20px;
 }
 #section-camera {
     background-color: #009688;
 }
 #section-palette {
     background-color: #ff5722;
-    margin-right: 20px;
 }
 #section-download {
     background-color: #2196f3;
-    margin-right: 20px;
 }
 #section-gesture {
     background-color: #424242;
@@ -111,7 +107,7 @@ body {
     margin: 0px;
     text-align: center;
     color: white;
-    padding-top: 25px;
+    padding: 25px 0px 0px 0px;
 }
 footer {
     height: 150px;
@@ -121,4 +117,58 @@ footer {
 #footer-content > li {
     list-style-type: none;
     padding: 5px;
+}
+@media screen and (min-width: 726px) {
+#section-music {margin-right: 20px !important;}
+#section-person {margin-right: 20px !important;}
+#section-palette {margin-right: 20px !important;}
+#section-download {margin-right: 20px !important;}
+}
+@media screen and (min-width: 518px) and (max-width: 690px) {
+	#section-music, #section-person, #section-camera, #section-palette, #section-download, #section-gesture {
+    margin-right: 8px;
+    margin-left: 8px;
+}
+}
+
+@media screen and (min-width: 726px) and (max-width: 943px) {
+	#section-music, #section-person, #section-camera, #section-palette, #section-download, #section-gesture {
+    margin-right: auto;
+    margin-left: auto;
+}
+}
+
+@media screen and (min-width: 944px) and (max-width: 968px) {
+	#section-camera, #section-gesture {
+	margin-right: 20px !important;
+	}
+}
+
+@media screen and (min-width: 969px) and (max-width: 1056px) {
+	#section-camera, #section-gesture {
+    margin-right: 30px !important;
+	}
+	#section-music, #section-palette {
+	margin-left: 30px !important;
+	}
+	#section-palette:after {
+    content:"\a";
+    white-space: pre;
+}
+}
+@media screen and (min-width: 1057px) and (max-width: 1093px) {
+	#section-camera, #section-gesture {
+    margin-right: 40px !important;
+	}
+	#section-music, #section-palette {
+	margin-left: 40px !important;
+	}
+}
+@media screen and (min-width: 1094px) {
+#section-music, #section-palette {
+    margin-left: 50px !important;
+}
+#section-camera, #section-gesture {
+    margin-right: 50px !important;
+	}
 }
