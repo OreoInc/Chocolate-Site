@@ -1,0 +1,132 @@
+.version.index /* version checker */
+{
+	color: #000013;
+	background-color: #3A4575;
+}
+
+#page
+{
+	z-index: 1;
+	width: 1366px;
+	min-height: 768px;
+	background-image: none;
+	border-width: 0px;
+	border-color: #000000;
+	background-color: transparent;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#pslideshowu94
+{
+	width: 0.01px;
+	padding-bottom: 703px;
+	margin-right: -10000px;
+	margin-left: -100px;
+}
+
+#slideshowu94
+{
+	z-index: 2;
+	width: 0.01px;
+	height: 0px;
+	position: relative;
+	margin-right: -10000px;
+	margin-top: 65px;
+	left: 187px;
+}
+
+#u101
+{
+	position: absolute;
+	background-color: transparent;
+}
+
+#u101popup
+{
+	z-index: 3;
+}
+
+#u102
+{
+	z-index: 4;
+	border-width: 0px;
+	border-color: transparent;
+	background-color: #4F4F4F;
+}
+
+.SSFirstButton,.SSPreviousButton,.SSNextButton,.SSLastButton,.SSSlideLink,.SSCloseButton /* slideshowFreeStyle */
+{
+	cursor: pointer;
+}
+
+.SSSlideLoading /* slideshowFreeStyle */
+{
+	background: url("../images/loading.gif") no-repeat center center;
+}
+
+#u156
+{
+	z-index: 7;
+	height: 160px;
+	background-color: #000000;
+	opacity: 0.65;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=65)";
+	filter: alpha(opacity=65);
+	position: fixed;
+	bottom: 0px;
+}
+
+#u156-bw
+{
+	z-index: 7;
+}
+
+#u152-4
+{
+	z-index: 8;
+	display: block;
+	vertical-align: top;
+	position: fixed;
+	bottom: 23px;
+	left: 50%;
+	margin-left: -226px;
+}
+
+#u149
+{
+	z-index: 6;
+	height: 768px;
+	background-color: #000000;
+	opacity: 0.2;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=20)";
+	filter: alpha(opacity=20);
+}
+
+.js body
+{
+	visibility: hidden;
+}
+
+.js body.initialized
+{
+	visibility: visible;
+}
+
+#u149-bw
+{
+	z-index: 6;
+	height: 768px;
+}
+
+#muse_css_mq,.html
+{
+	background-color: #FFFFFF;
+}
+
+body
+{
+	position: relative;
+	min-width: 1366px;
+}
+
